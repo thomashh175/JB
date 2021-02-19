@@ -1,0 +1,68 @@
+body {
+background: #000000;
+     background-image: linear-gradient(90deg, #20b4d8, #7e31e4);
+    background-size: 100% 100%;
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    -o-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 99%}
+    50%{background-position:100% 2%}
+    100%{background-position:0% 99%}
+}
+.btn {
+background-color: #000000;
+background-image: linear-gradient(to right, #20b4d8, #7e31e4);
+
+background-size: 800% 800%;
+
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 45px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 50px;
+border:15px solid #000000;
+font-family: SF;
+}
+@font-face {
+    font-family: 'SF';
+    src: url('https://github.com/blaisck/sfwin/raw/master/SFMono/TrueType/SFMono-Regular.ttf');
+}
+.icons {
+background-color: #000000;
+background-image: linear-gradient(to right, #20b4d8, #7e31e4);
+ background-size: 100%;
+
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 50px;
+border:10px solid #000000;
+font-family: SF;
+}
