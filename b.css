@@ -1,0 +1,58 @@
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #000000; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+Try it Yourself »
+
+body {
+     background-image: url('https://thomashh175.github.io/JB/wall1.png');
+}
+.btn {
+background-color: #FFFFFF;
+background-image: linear-gradient(to right, #1c1c28, #1c1c28);
+
+background-size: 800% 800%;
+
+color: white;
+padding: 13px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 35px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 50px;
+border:12px solid #000000;
+font-family: SF;
+}
+@font-face {
+    font-family: 'SF';
+    src: url('https://github.com/blaisck/sfwin/raw/master/SFMono/TrueType/SFMono-Regular.ttf');
+}
+.icons {
+background-color: #000000;
+background-image: linear-gradient(to right, #20b4d8, #7e31e4);
+ background-size: 800% 800%;
+
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 50px;
+border:10px solid #000000;
+font-family: SF;
+}
+
